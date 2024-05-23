@@ -1,4 +1,7 @@
-[gd_scene format=3 uid="uid://crqbet6ewjsri"]
+[gd_scene load_steps=3 format=3 uid="uid://crqbet6ewjsri"]
+
+[ext_resource type="Texture2D" uid="uid://elkmifli4omv" path="res://assets/FAFOCOLO.jpg" id="1_pjmkx"]
+[ext_resource type="Script" path="res://scripts/Movement.cs" id="2_mhtbd"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -6,3 +9,9 @@
 offset_right = 125.0
 offset_bottom = 33.0
 text = "COLIN MPREG"
+
+[node name="Fafocolo" type="Sprite2D" parent="."]
+position = Vector2(184, 133)
+scale = Vector2(0.182871, 0.182871)
+texture = ExtResource("1_pjmkx")
+script = ExtResource("2_mhtbd")
