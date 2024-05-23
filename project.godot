@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="LibraryQuest"
+run/main_scene="res://canvas_layer.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
+
+[dotnet]
+
+project/assembly_name="LibraryQuest"
 
 [rendering]
 
