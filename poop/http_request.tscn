@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dqmv8uxm0oge0"]
+
+[ext_resource type="Script" path="res://poop/http_request.gd" id="1_kql1v"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_kql1v")
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
