@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://dwf0hppun05bd"]
+[gd_scene load_steps=2 format=3 uid="uid://dwf0hppun05bd"]
+
+[ext_resource type="Script" path="res://cum/GeoJsonLoader.cs" id="1_netm6"]
 
 [node name="Map" type="Node2D"]
+
+[node name="Loader" type="Node2D" parent="."]
+position = Vector2(580, 278)
+script = ExtResource("1_netm6")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(702.435, 240.245)
+scale = Vector2(0.320001, 0.320001)
+zoom = Vector2(5000, 5000)
